@@ -9,7 +9,6 @@ namespace Models.FAT
     public class FAT_NF_SERVICO
     {
         public int id { get; set; }
-        public string nome { get; set; }
         public string CEMP { get; set; }
         public string Usuario { get; set; }
         public string CodigoUsuario { get; set; }
@@ -19,5 +18,6 @@ namespace Models.FAT
         public string Protocolo { get; set; }
         public string CODIGOVERIFICACAO { get; set; }
         public string NFSE_NUMERO { get; set; }        
+        public string OperacaoSilenciosa { get; set; }
     }
 }

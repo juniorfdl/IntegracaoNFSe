@@ -59,6 +59,9 @@ namespace Controllers.FAT
                             case 4:
                                 item.NFSE_NUMERO = line;
                                 break;
+                            case 5:
+                                item.OperacaoSilenciosa = line;
+                                break;
                         }
 
                         cont++;
